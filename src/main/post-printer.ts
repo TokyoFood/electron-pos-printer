@@ -78,7 +78,7 @@ export class PosPrinter {
             });
 
             if ( options.width ) {
-                mainWindow.width: options.width
+                mainWindow.width = options.width
             }
 
             // If the mainWindow is closed, reset the `mainWindow` var to null
